@@ -101,7 +101,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://telegra.ph/file/5755d25e718851cdecacb.jpg",
+            thumb_url="https://telegra.ph/file/a936275f4a80ef98dccee.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -121,7 +121,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Siesta Robot ❤️](https://t.me/machinaxsupport):**
+**[Arcanine](https://t.me/ArcanineSupport):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
