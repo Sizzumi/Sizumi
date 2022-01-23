@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Siestaxbot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/TheArcaninebot?startgroup=new"),
                         ]
                     ]
                 ),
@@ -390,7 +390,7 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/Aviesupport"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/ArcanineSupport"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
